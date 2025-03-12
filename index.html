@@ -6,64 +6,100 @@
     <title>The Batman - Escena Post-Créditos</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #fff;
+            background-color: #f0f0f0;
         }
-        .hero {
-            background: url('ruta-a-tu-imagen.jpg') no-repeat center center/cover;
-            height: 50vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 20px;
-        }
-        .hero h1 {
-            font-size: 2rem;
-            color: red;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        img {
+
+        .header {
             width: 100%;
             height: auto;
-            margin: 20px 0;
+            overflow: hidden;
+            position: relative;
         }
+
+        .header img {
+            width: 100%;
+            display: block;
+        }
+
+        .header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .content {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* Media Query para la imagen de Batman */
         @media (max-width: 600px) {
-            .hero {
-                height: 30vh;
-            }
-            .hero h1 {
-                font-size: 1.5rem;
+            .header img {
+                height: 200px; /* Ajusta la altura para pantallas pequeñas */
+                object-fit: cover;
             }
         }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>'The Batman': la misteriosa escena post-créditos de la película de Matt Reeves</h1>
+
+    <div class="header">
+        <img src="URL_DE_LA_IMAGEN_DE_BATMAN" alt="The Batman">
+        <h1>'The Batman': la misteriosa escena post-créditos de la película de Matt Reeves esconde un nuevo enigma para los fans</h1>
     </div>
-    <div class="container">
+
+    <div class="content">
         <h2>The Batman</h2>
-        <p><strong>'The Batman'</strong>, la nueva película de Matt Reeves ofrece una versión nueva y más oscura...</p>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/tu-video" frameborder="0" allowfullscreen></iframe>
-        
-        <h3>Una escena post-créditos relativa</h3>
-        <p>La respuesta es que no hay una escena propiamente dicha después de los créditos...</p>
-        
-        <h3>SPOILERS DE LA ESCENA POST-CRÉDITOS DE THE BATMAN</h3>
-        <p>Con bajas expectativas el clip posterior a los créditos de 'The Batman' es divertido...</p>
-        <img src="/imagenes/img_2.jpeg" alt="img_2">
-        
-        <h3>Un juego con recompensa</h3>
-        <p>Lo divertido es que si vamos a la web <a href="https://www.rataalada.com" target="_blank">www.rataalada.com</a> nos encontramos...</p>
-        <img src="/imagenes/img_3.jpeg" alt="img_3">
+        <p>Aquí iría el texto del artículo sobre la escena post-créditos de The Batman...</p>
+
+        <img src="URL_DE_LA_IMAGEN_DEL_VIDEO_DE_YOUTUBE" alt="Video de YouTube">
+
+        <h2>Una escena post-créditos críptica</h2>
+        <p>Más texto sobre la escena post-créditos...</p>
+
+        <h2>¡ATENCIÓN! ¡SPOILERS!</h2>
+        <p>Advertencia de spoilers y más detalles sobre la escena...</p>
+
+        <img src="imagenes/img_1.jpeg" alt="Pantalla de la computadora 1">
+
+        <p>Texto adicional sobre lo que se muestra en la pantalla de la computadora...</p>
+
+        <img src="imagenes/img_2.jpeg" alt="Pantalla de la computadora 2">
+
+        <h2>Un juego por experiencia</h2>
+        <p>Información sobre el juego relacionado con la película...</p>
+
+        <img src="imagenes/img_3.jpeg" alt="Pantalla de la computadora 3">
     </div>
+
 </body>
 </html>
