@@ -85,7 +85,7 @@
         tr:nth-child(even) {
             background-color: #4000ff;
         }
-        
+
         /* Media Query para la imagen de Batman */
         @media (max-width: 600px) {
             .header img {
@@ -93,6 +93,19 @@
                 object-fit: cover;
             }
         }
+
+        .carousel {
+  position: relative;
+  width: 500px; /* Ajusta el ancho según tus necesidades */
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
     </style>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -188,6 +201,16 @@
   </tr>
 </table>
     </div>
+
+    <div class="carousel">
+        <div class="carousel-images">
+          <img src="/imagenes/1.jpeg" alt="Imagen 1">
+          <img src="/imagenes/2.jpeg" alt="Imagen 2">
+          <img src="/imagenes/3.jpeg" alt="Imagen 3">
+        </div>
+        <button class="prev-btn">&lt;</button>
+        <button class="next-btn">&gt;</button>
+      </div>
 
 </body>
 </html>
