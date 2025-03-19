@@ -70,7 +70,22 @@
             display: block;
             margin: 10px auto;
         }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
 
+        td, th {
+            border: 1px solid #4000ff;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #4000ff;
+        }
+        
         /* Media Query para la imagen de Batman */
         @media (max-width: 600px) {
             .header img {
@@ -118,6 +133,60 @@
 
         <img src="imagenes/img_3.jpeg" alt="Pantalla de la computadora 3">
         <p>La web tiene varios acertijos que nos pregunta un misterioso personaje que se supone que es el villano de la película, pero sus preguntas son bastante complejas y resolverlas no es tan fácil como parece, y si fallas te intenta poner nervioso, hasta que decide darte una nueva oportunidad y plantea nuevas preguntas.</p>
+
+        <h2>Reparto de Batman en el Cine</h2>
+
+<table>
+  <tr>
+    <th>Película</th>
+    <th>Batman/Bruce Wayne</th>
+    <th>Guasón/Joker</th>
+    <th>Gatúbela/Catwoman</th>
+    <th>Otros Personajes Destacados</th>
+  </tr>
+  <tr>
+    <td>Batman (1989)</td>
+    <td>Michael Keaton</td>
+    <td>Jack Nicholson</td>
+    <td>Kim Basinger</td>
+    <td>Comisionado Gordon (Pat Hingle), Alfred Pennyworth (Michael Gough)</td>
+  </tr>
+    <tr>
+    <td>Batman Regresa (1992)</td>
+    <td>Michael Keaton</td>
+    <td>-</td>
+    <td>Michelle Pfeiffer</td>
+    <td>El Pingüino (Danny DeVito), Max Shreck (Christopher Walken)</td>
+  </tr>
+    <tr>
+    <td>Batman Inicia (2005)</td>
+    <td>Christian Bale</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Ra's al Ghul (Liam Neeson), Espantapájaros (Cillian Murphy), Comisionado Gordon (Gary Oldman), Alfred Pennyworth (Michael Caine)</td>
+  </tr>
+  <tr>
+    <td>El Caballero de la Noche (2008)</td>
+    <td>Christian Bale</td>
+    <td>Heath Ledger</td>
+    <td>-</td>
+    <td>Dos Caras (Aaron Eckhart), Comisionado Gordon (Gary Oldman), Alfred Pennyworth (Michael Caine)</td>
+  </tr>
+    <tr>
+    <td>El Caballero de la Noche Asciende (2012)</td>
+    <td>Christian Bale</td>
+    <td>-</td>
+    <td>Anne Hathaway</td>
+    <td>Bane (Tom Hardy), Comisionado Gordon (Gary Oldman), Alfred Pennyworth (Michael Caine)</td>
+  </tr>
+    <tr>
+    <td>The Batman (2022)</td>
+    <td>Robert Pattinson</td>
+    <td>-</td>
+    <td>Zoë Kravitz</td>
+    <td>El Pingüino (Colin Farrell), Enigma (Paul Dano), Comisionado Gordon (Jeffrey Wright)</td>
+  </tr>
+</table>
     </div>
 
 </body>
